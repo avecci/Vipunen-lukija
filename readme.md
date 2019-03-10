@@ -60,6 +60,7 @@ Todennäköisesti joudut muuttamaan instanssin turvallisuusasetuksia AWS:ssä, j
 
     $ python api.py
 
+
 5. Tutki dataa. Tietojoukoilla on avaimet, ja kunkin taulun tiedot saa käsiteltyä joko sellaisenaan, yhdistettynä muihin tauluihin, ja visualisoitua melko järkevästi.
 
 ![Tietokantakysely](https://s3.eu-north-1.amazonaws.com/antti-vipunen-github/vipunen_readme_kuva6.PNG)
