@@ -51,8 +51,13 @@ Suorituksen jälkeen ruudulle tulostuu tietokantapalvelimen yhteysasetukset.
 Todennäköisesti joudut muuttamaan instanssin turvallisuusasetuksia AWS:ssä, jotta saat yhteyden instanssiin. Lisäksi joudut luomaan palvelimelle tietokannan, jotta pääset populoimaan tauluja.
 
 3. Tämän jälkeen voit suorittaa Python-koodin. Aseta tähän Terraformista/AWS:stä haetut tietokantainstanssin yhteysasetukset.
+
 ![api.py-parametrit](https://s3.eu-north-1.amazonaws.com/antti-vipunen-github/vipunen_readme_kuva4.PNG)
 4. Suorita Python-koodi. Ohjelma hakee Vipusesta yhden tietojoukon kerrallaan, luo tietokantapalvelimelle luotuun tietokantaan taulun, ja populoi sen. Toim. huom. kaikkien tietojen siirtämisessä SQL Server Express Editionilla pyörivään kantaan kesti itsellä 5-7 päivää.
+
+
+    $ python api.py
+
 5. Tutki dataa. Tietojoukoilla on avaimet, ja kunkin taulun tiedot saa käsiteltyä joko sellaisenaan, yhdistettynä muihin tauluihin, ja visualisoitua melko järkevästi.
 
 ![Tietokantakysely](https://s3.eu-north-1.amazonaws.com/antti-vipunen-github/vipunen_readme_kuva6.PNG)
